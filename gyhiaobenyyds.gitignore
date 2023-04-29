@@ -1,0 +1,7 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+
+local Window = Library.CreateLib("gy脚本", "DarkTheme")
+
+local Tab = Window:NewTab("菜单")
+
+local Section = Tab:NewSection("主脚本")
